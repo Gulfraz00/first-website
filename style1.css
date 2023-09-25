@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    overflow-x: hidden;
+
+}
+#main{
+    height: 92%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+
+}
+#nav{
+    height: 8%;
+    width: 100%;
+    background-color: #b4b4b4;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+#nav>h4{
+    padding-left:20px;
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: 400px;
+}
+#nav-part{
+  
+   height: 50px;
+   width: 900px;
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding:0 4vw;
+}
+#nav-part>a>h4{
+   font-size:30px;
+   font-family:ui-rounded;
+   
+   
+}
+#nav-part>a{
+    text-decoration: none;
+    color:#000000;
+       
+}
+.section1{
+    height:100vh;
+    width: 50vw;
+    background-color:#b2b2b2;
+   
+}
+.section2{
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAHt23jjf_ekR6lTOUJxZ5y6E3_XLYU5abwtID3e7PYtQBxHS5bCfRnD1QKNCk5oylQ9E&usqp=CAU);
+    background-size: cover;
+}
+
+
+.section1>h1{
+    font-size: 4vw;
+    font-family: serif;
+    font-weight: 200;
+    padding: 2.5vw 6vw;
+
+}
+.section1>h1>span{
+    color: #ff8578;
+     font-weight:600;
+
+}
+.section1>p{
+    padding: 0 6vw;
+    letter-spacing: 0.001vw;
+    line-height: 20px;
+    
+}
+button{
+    background-color: #ff8578;
+    padding: 1vh 2vh;
+    margin: 15vh 12vh;
+    border-radius:0.5vw;
+    border: none;
+    
+}
+
+.ri-menu-3-line{
+    display: none;
+}
+@media(max-width:600px){
+    #nav>h4{
+        font-size: 4vw;
+        display: hidden;
+    }
+    #nav{
+        position:fixed;
+        /* display: hidden; */
+        /* position: relative; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
+    }
+
+   #nav-part{
+      display: none;
+   }
+    #main{
+        width: 100% ;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        /* position: absolute; */
+    }
+    .section1{
+        margin-top: 8vh;
+        width:100vw;
+        height:100vh;
+        
+     }
+    
+      .section2 img{
+          width:100vw;
+          height:100vh;
+          
+       }
+       .section1>h1{
+        font-size:9vw;
+    font-family: serif;
+    font-weight: 200;
+    padding: 6.5vw 6vw;
+}
+.section1>h1>span{
+    color: #ff8578;
+     font-weight:600;
+   font-size:9vw;
+
+}
+.section1>p{
+    padding: 0 7vw;
+    letter-spacing: 0.001vw;
+    line-height: 20px;
+    
+}
+   button{
+    background-color: #ff8578;
+    padding: 1vh 1vh;
+    margin: 5vh 4vh;
+    border-radius:2vw;
+    border: none;
+    
+}
+}
