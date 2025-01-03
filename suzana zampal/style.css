@@ -1,0 +1,112 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(197, 210, 212);
+    display: flex;
+    overflow: hidden;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(177, 126, 89);
+    background-image: url(https://images.unsplash.com/photo-1692171295305-e84a1d62a842?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=709&q=80);
+    background-size: cover;
+    background-position: center;
+    /* position: relative; */
+   display:flex;
+   z-index:34;
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: rgba(174, 137, 137, 0.608); */
+}
+#text{
+    margin-top: 10%;
+    margin-left: 20%;
+    position: absolute;
+    color: #04c2dfa3;
+    z-index:70;
+}
+#text h1{
+    font-size: 1000%;
+    font-weight: 800;
+    font-family: monospace;
+    letter-spacing: 7px; 
+    /* margin-left: 20%; */
+    /* margin-top: 20%; */
+    
+}
+#vertical-text{
+    height: 100px;
+     width: 923px;
+     /* background-color: red; */
+     margin-top: 442px;
+     /* padding-top: 300px; */
+     position: absolute;
+     right: -450px;
+     transform: rotate(90deg);
+    
+ }
+ #vertical-text h1{
+    font-size:190px; ;
+    font-weight: 800px;
+    font-family: monospace;
+    color: transparent;
+    /* transform: transparent; */
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 2px; 
+    position: absolute;
+   
+ }
+ 
+#small-img{
+    height: 60%;
+    width: 20%;
+    /* background-color: burlywood; */
+    background-image: url(https://images.unsplash.com/photo-1588747020648-4ff0ec1abecb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTN8OTM0MTQ0MXx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    margin-top: 220px;
+    position:absolute;
+    z-index: -5;
+    top:22px;
+    right:50px;
+}
+
+#nav{
+    width: 40%;
+    height: 7%;
+    /* background-color: red; */
+    display: flex;
+    position: absolute;
+    align-items: end;
+    justify-content: space-around;
+    z-index:140;
+    margin-top:30px;
+}
+#nav h4{
+    font-weight: 10px;
+    font-family:'Tilt Prism', cursive;
+    letter-spacing: 15px;
+}
+#nav i{
+    font-size: 200%;
+}
